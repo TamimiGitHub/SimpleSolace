@@ -7,6 +7,7 @@ This repo demonstrates a simple publisher subscriber demo using
 ## Prerequisites
 - Docker
 - Node 8+
+- `npm install` to install the solace JS client 
 
 ## How to run
 1. Run the Solace event broker in a docker image. This is done by running docker compose
