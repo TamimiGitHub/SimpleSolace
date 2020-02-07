@@ -1,0 +1,15 @@
+{
+  "name": "solace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "TopicPublisher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tamimi ahmad",
+  "license": "ISC",
+  "dependencies": {
+    "solclientjs": "^10.3.1"
+  }
+}

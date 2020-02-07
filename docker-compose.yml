@@ -1,0 +1,18 @@
+    
+version: "2"
+
+services:
+  broker:
+    image: solace/solace-pubsub-standard
+    container_name: solace
+    ports:
+      - "8080:8080"
+      - "55555:55555"
+      - "80:80"
+      - "1883:1883"
+      - "5672:5672"
+      - "2222:2222"
+    shm_size: 2g
+    environment:
+      - username_admin_globalaccesslevel=admin
+      - username_admin_password=admin
