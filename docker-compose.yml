@@ -12,6 +12,7 @@ services:
       - "1883:1883"
       - "5672:5672"
       - "2222:2222"
+      - "9000":"9000"
     shm_size: 2g
     environment:
       - username_admin_globalaccesslevel=admin
