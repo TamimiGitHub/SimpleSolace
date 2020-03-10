@@ -128,10 +128,6 @@ var TopicPublisher = function (solaceModule, topicName) {
         }
     };
     // Publishes one message
-    // async () => {
-    //     await publishMessage(publisher, "Whats uppp")
-    //     await publishMessage(publisher, "Tamimi")
-    // }
     publishMessage(publisher, "Whats uppp")
     
     publisher.exit = function () {
