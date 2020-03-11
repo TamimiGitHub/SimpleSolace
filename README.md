@@ -27,7 +27,7 @@ node TopicPublisher.js  ws://localhost:80 default@default secret
 ```
 
 ## Notes
-1. The event broker web interface could be accessed from `localhost:8080`. This is very helpful to know whats going on when a publisher or a subscriber connects to the broker
+1. The event broker web interface could be accessed from `localhost:8080` with default username/password `admin/admin`. This is very helpful to know whats going on when a publisher or a subscriber connects to the broker
 1. You have to wait until the solace demon in the docker image is fully running before connecting to the broker. This can be checked by accessing the broker web interface
 1. You can run the Publisher as many times as you'd like and you will get the messages received on the Subscriber terminal
 
